@@ -1,4 +1,6 @@
 *.o
 .DS_Store
-hello
-variaveis
+semana*/hello
+semana*/variaveis
+semana*/condicionais
+semana*/loops
