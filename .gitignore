@@ -1,8 +1,17 @@
 *.o
-.DS_Store
-semana*/hello
-semana*/variaveis
-semana*/condicionais
-semana*/loops
-semana*/funcoes
-semana*/entrada
+**/.DS_Store
+
+# executáveis compilados (arquivos sem extensão dentro de semana*/)
+semana*/*
+!semana*/*.*
+semana*/.DS_Store
+
+# símbolos de debug gerados pelo clang no macOS
+*.dSYM/
+
+# configs de IDE
+.idea/
+.vscode/
+
+# anotações pessoais de aula
+semana*/anotacoes-aula.md
